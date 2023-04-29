@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face { 
+  font-family: p1_v1; 
+  src: url('./assets/font/p1_v1.ttf'); }

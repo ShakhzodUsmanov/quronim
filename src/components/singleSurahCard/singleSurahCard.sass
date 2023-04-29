@@ -1,0 +1,45 @@
+$grey: #666666da
+.ant-card-body
+  width: 100%
+.singleSurahCard
+  width: 100%
+  display: flex
+  justify-content: space-between
+  &__count
+    color: #ffffff
+    font-weight: bold
+    display: flex
+    align-items: center
+    justify-content: center
+    transform: rotate(45deg)
+    background: $grey
+    width: 40px
+    height: 40px
+    border-radius: 5px
+    span
+      transform: rotate(-45deg)
+  &__text
+    display: flex
+    width: 80%
+    justify-content: space-between
+    .left
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .title
+        font-size: 18px
+        font-weight: bold
+      .subtitle
+        font-size: 14px
+        font-weight: 500
+        color: $grey
+    .right
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      text-align: center
+      .title
+        font-weight: bold
+      .ayahsCount
+        font-weight: 500
+        color: $grey
